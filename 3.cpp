@@ -10,9 +10,9 @@ int generateProgression(std::vector<int>& progression) {
     std::mt19937 gen(rd());
     std::uniform_int_distribution<int> distribution(2, 5);
 
-    int length = distribution(gen) * 2 + 1; // Generating a random length for the progression
-    int start = distribution(gen); // Generating a random start for the progression
-    int ratio = distribution(gen); // Generating a random ratio for the progression
+    int length = distribution(gen) * 2 + 1;
+    int start = distribution(gen);
+    int ratio = distribution(gen);
 
     for (int i = 0; i < length; ++i) {
         progression.push_back(start * pow(ratio, i));
