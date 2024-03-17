@@ -3,7 +3,7 @@
 #include <vector>
 #include <random>
 
-#include "game_messages.h"
+#include "2.h"
 
 int generateProgression(std::vector<int>& progression) {
     std::random_device rd;
