@@ -33,7 +33,7 @@ int main() {
 
     int score = 0;
     for (int i = 0; i < 3; i++) {
-        int num1 = rand() % 21; // Генерация чисел от 0 до 20
+        int num1 = rand() % 21;
         int num2 = rand() % 21;
         int num3 = rand() % 21;
 
